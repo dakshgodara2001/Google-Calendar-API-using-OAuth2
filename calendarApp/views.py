@@ -5,9 +5,10 @@ from rest_framework import status
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from django.conf import settings
-
 secrets = settings.API_SECRET_FILE
-scopes=['https://www.googleapis.com/auth/calendar.readonly']
+
+
+scopes=['https://www.googleapis.com/auth/calendar']
 
 class GoogleCalendarInitView(APIView):
     def get(self,request):
