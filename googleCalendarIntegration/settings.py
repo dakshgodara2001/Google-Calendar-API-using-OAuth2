@@ -16,12 +16,15 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 API_SECRET_FILE = os.path.join(BASE_DIR, 'secret.json')
-os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-sd)b)p16(*$fw$jo&sazjn0i1ns5m$ebz#on0=vukx1x7=57t5'
+
+os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
