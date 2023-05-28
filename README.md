@@ -2,6 +2,11 @@
 
 This project demonstrates how to integrate Google Calendar with a Django application using Google OAuth 2.0. It allows users to view events from their Google Calendar within the Django application.
 
+## Repl.it
+
+A live version of this project is hosted on Repl.it. You can view and interact with it [here](https://replit.com/@DakshGodara1/Google-Calendar-API-using-OAuth2). 
+
+Please note, to use Google Calendar integration on the Repl.it version, you will need to set up your own Google OAuth 2.0 client and update the `secret.json` file accordingly.
 
 ## Setup
 
